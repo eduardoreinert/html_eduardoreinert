@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulário</title>
+</head>
+<body>
+    <form method="post" action="/cgi-bin/post-query">
+        Informe sua senha de acesso (8 caracteres):
+        <input type="password" value="xpto" name="sua_senha" size="8" mexlenght="8">
+    </form>
+
+    <br/>
+
+    <form method="post" action="/cgi-bin/post-query">
+        Você não pode visualizar nada aqui embaixo.
+        <input type="hidden" value="form12" name="nome_oculto">
+    </form>
+
+    <br/>
+    <adress>
+        Eduardo Borsato Reinert | Estudante | Dev. de Sistemas
+    </adress>
+</body>
+</html>

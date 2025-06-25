@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Formulário Tabela</title>
+</head>
+<body>
+    <h2 align="center">Formulário de Clientes</h2>
+    <table border cellspacing="0" align="center">
+        <form>
+            <tr>
+                <th bgcolor="lightblue" align="center" colspan="7">Clientes</th>
+                <td align="center"><img height="50" width="50" src="img/logo.png"></td>
+            </tr>
+            <tr>
+                <td align="left">ID Cliente</td>
+                <td align="left">ID Usuário</td>
+                <td align="left">E-mail</td>
+                <td align="left">Nome</td>
+                <td align="left">Observação</td>
+                <td align="left">RG</td>
+                <td align="left">Data Nascimento</td>
+                <td align="left">Sexo</td>
+            </tr>
+            <tr>
+                <td><input type="number" name="id_cliente" id="id_cliente" placeholder="ID Cliente"></td>
+                <td><input type="number" name="id_usuario" id="id_usuario" placeholder="ID Usuário"></td>
+                <td><input type="email" name="email" id="email_cliente" placeholder="E-mail"></td>
+                <td><input type="text" name="nome" id="nome_cliente" placeholder="Nome"></td>
+                <td><input type="text" name="observacao" id="observacao" placeholder="Observação"></td>
+                <td><input type="text" name="rg" id="rg_cliente" placeholder="XX.XXX.XXX-X. "></td>
+                <td><input type="date" name="data_nasc" id="data_nasc_cliente" placeholder="Data nascimento"></td>
+                <td>
+                    <select name="sexo" id="sexo_cliente" placeholder="Sexo">
+                        <option value="n/a">Selecione</option>
+                        <option value="f">Feminino</option>
+                        <option value="m">Masculino</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td align="center"colspan="8">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
